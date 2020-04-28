@@ -205,6 +205,9 @@ spec:
             mountPath: /opt/nifi/provenance_repository
           - name: "logs"
             mountPath: /opt/nifi/nifi-current/logs
+            - name: "sqljdbc42-jar"
+            mountPath: /opt/nifi/data/sqljdbc42.jar
+            subPath: "sqljdbc42.jar"
           - name: "bootstrap-conf"
             mountPath: /opt/nifi/nifi-current/conf/bootstrap.conf
             subPath: "bootstrap.conf"
