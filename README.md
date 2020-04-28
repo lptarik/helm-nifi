@@ -17,7 +17,7 @@ This [Helm](https://github.com/kubernetes/helm) chart installs [nifi](https://ni
 ### Add Helm repository
 
 ```bash
-helm repo add cetic https://cetic.github.io/helm-charts
+helm repo add cetic https://github.com/lptarik/helm-nifi
 helm repo update
 ```
 
