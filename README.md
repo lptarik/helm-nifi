@@ -48,7 +48,7 @@ helm install --name my-release cetic/nifi
 ### Install from local clone
 
 ```bash
-git clone https://github.com/cetic/helm-nifi.git nifi
+git clone https://github.com/lptarik/helm-nifi.git nifi
 cd nifi
 helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com
 helm repo update
